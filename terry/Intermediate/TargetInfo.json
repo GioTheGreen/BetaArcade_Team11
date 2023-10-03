@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "terry",
+			"Path": "C:\\Users\\B1050622\\Documents\\GitHub\\BetaArcade_Team11\\terry\\Source\\terry.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "terryEditor",
+			"Path": "C:\\Users\\B1050622\\Documents\\GitHub\\BetaArcade_Team11\\terry\\Source\\terryEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
