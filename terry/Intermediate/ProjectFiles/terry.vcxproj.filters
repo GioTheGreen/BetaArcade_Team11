@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\terry.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4AAE934E-B832-427D-B8D0-6F61702FB899}</UniqueIdentifier>
+      <UniqueIdentifier>{DDF8032C-5AEE-477F-BA9A-E8CD2E077D5A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\terry.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BDF1D384-45D5-42F3-A2FD-E6128AC35708}</UniqueIdentifier>
+      <UniqueIdentifier>{8D3E02E2-2BA5-49A4-A887-C7D2E117B8B6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\terry">
-      <UniqueIdentifier>{6934DC08-7CBC-45C0-8D0F-A4D428CF1D25}</UniqueIdentifier>
+      <UniqueIdentifier>{F55352B7-8491-4DA1-86FC-F7432FD24035}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\terry\LogPrint.cpp">
       <Filter>Source\terry</Filter>
