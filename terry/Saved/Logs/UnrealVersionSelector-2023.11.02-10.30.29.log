@@ -287,7 +287,6 @@ VCToolChain..ctor: Compiler: C:\Program Files\Microsoft Visual Studio\2022\Enter
 VCToolChain..ctor: Linker: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\link.exe
 VCToolChain..ctor: Library Manager: C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\lib.exe
 VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\rc.exe
-Utils.WriteFileIfChanged: Updating C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h: contents have changed. Saving previous version to C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.old.
 ProgressWriter.Write: @progress 'Binding IntelliSense data...' 100%
 Log.PushStatus: Writing project files...
 ProgressWriter.Write: @progress 'Writing project files...' 0%
@@ -297,39 +296,38 @@ ProgressWriter.Write: @progress 'Writing project files...' 100%
 Timeline.Print: Timeline:
 Timeline.Print: 
 Timeline.Print: [ 0.000]
-Timeline.Print: [ 0.000](+0.020) <unknown>
-Timeline.Print: [ 0.020](+0.118) XmlConfig.ReadConfigFiles()
-Timeline.Print: [ 0.139](+0.000) SingleInstanceMutex.Acquire()
-Timeline.Print: [ 0.139](+0.041) UEBuildPlatform.RegisterPlatforms()
-Timeline.Print:   0.140          [ 0.000](+0.020) Initializing InstalledPlatformInfo
-Timeline.Print:   0.160          [ 0.020](+0.000) Querying types
-Timeline.Print:   0.161          [ 0.021](+0.000) MacPlatformFactory
-Timeline.Print:   0.162          [ 0.022](+0.011) TVOSPlatformFactory
-Timeline.Print:   0.173          [ 0.034](+0.001) AndroidPlatformFactory
-Timeline.Print:   0.175          [ 0.035](+0.001) HoloLensPlatformFactory
-Timeline.Print:   0.176          [ 0.036](+0.001) IOSPlatformFactory
-Timeline.Print:   0.177          [ 0.038](+0.001) LinuxPlatformFactory
-Timeline.Print:   0.179          [ 0.040](+0.001) LuminPlatformFactory
-Timeline.Print:   0.181          [ 0.041](+0.000) WindowsPlatformFactory
-Timeline.Print: [ 0.181](+0.266) <unknown>
-Timeline.Print: [ 0.448](+0.001) Finding engine modules
-Timeline.Print: [ 0.450](+0.002) Finding plugin modules
-Timeline.Print: [ 0.452](+0.028) <unknown>
-Timeline.Print: [ 0.480](+0.000) Finding program modules
-Timeline.Print: [ 0.480](+0.000) Finding program targets
-Timeline.Print: [ 0.480](+0.347) <unknown>
-Timeline.Print: [ 0.828](+0.129) Compiling rules assembly (terryModuleRules.dll)
-Timeline.Print: [ 0.957](+0.772) <unknown>
-Timeline.Print: [ 1.730](+0.000) RulesCompiler.CreateTargetRulesAssembly()
-Timeline.Print: [ 1.730](+0.000) RulesAssembly.CreateTargetRules()
-Timeline.Print: [ 1.736](+0.003) UEBuildTarget constructor
-Timeline.Print: [ 1.739](+1.108) UEBuildTarget.PreBuildSetup()
-Timeline.Print: [ 2.847](+0.828) <unknown>
-Timeline.Print: [ 3.676](+0.000) RulesCompiler.CreateTargetRulesAssembly()
-Timeline.Print: [ 3.676](+0.000) RulesAssembly.CreateTargetRules()
-Timeline.Print: [ 3.677](+0.065) UEBuildTarget constructor
-Timeline.Print:   3.677          [ 0.000](+0.064) Reading source file metadata cache
-Timeline.Print: [ 3.742](+0.159) UEBuildTarget.PreBuildSetup()
-Timeline.Print: [ 3.902](+1.795) <unknown>
-Timeline.Print: [ 5.697](+0.000) FileMetadataPrefetch.Stop()
-Timeline.Print: [ 5.698]
+Timeline.Print: [ 0.000](+0.021) <unknown>
+Timeline.Print: [ 0.021](+0.060) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.082](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.082](+0.043) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.082          [ 0.000](+0.019) Initializing InstalledPlatformInfo
+Timeline.Print:   0.102          [ 0.020](+0.000) Querying types
+Timeline.Print:   0.103          [ 0.021](+0.000) MacPlatformFactory
+Timeline.Print:   0.104          [ 0.022](+0.011) TVOSPlatformFactory
+Timeline.Print:   0.116          [ 0.034](+0.001) AndroidPlatformFactory
+Timeline.Print:   0.118          [ 0.035](+0.001) HoloLensPlatformFactory
+Timeline.Print:   0.119          [ 0.036](+0.001) IOSPlatformFactory
+Timeline.Print:   0.120          [ 0.038](+0.001) LinuxPlatformFactory
+Timeline.Print:   0.122          [ 0.040](+0.003) LuminPlatformFactory
+Timeline.Print:   0.125          [ 0.043](+0.000) WindowsPlatformFactory
+Timeline.Print: [ 0.126](+0.267) <unknown>
+Timeline.Print: [ 0.393](+0.001) Finding engine modules
+Timeline.Print: [ 0.394](+0.002) Finding plugin modules
+Timeline.Print: [ 0.396](+0.026) <unknown>
+Timeline.Print: [ 0.423](+0.000) Finding program modules
+Timeline.Print: [ 0.423](+0.000) Finding program targets
+Timeline.Print: [ 0.423](+0.047) <unknown>
+Timeline.Print: [ 0.471](+0.131) Compiling rules assembly (terryModuleRules.dll)
+Timeline.Print: [ 0.602](+0.825) <unknown>
+Timeline.Print: [ 1.427](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 1.428](+0.000) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 1.434](+0.003) UEBuildTarget constructor
+Timeline.Print: [ 1.437](+1.099) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 2.537](+0.807) <unknown>
+Timeline.Print: [ 3.345](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 3.345](+0.000) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 3.347](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 3.347](+0.171) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 3.519](+1.744) <unknown>
+Timeline.Print: [ 5.263](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 5.265]
