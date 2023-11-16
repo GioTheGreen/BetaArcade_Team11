@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EB79E81F-61EA-40DB-A6E2-597A9DAAF242}</ProjectGuid>
+    <ProjectGuid>{130C0BCC-02E7-4037-AD10-15AEC29C4D07}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>terry</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
@@ -298,8 +298,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\terry.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\terry.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -380,8 +380,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\terry.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\terry.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -445,8 +445,8 @@
   </PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
-		<LayoutDir>C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\AppX</LayoutDir>
-		<AppxPackageRecipe>C:\Users\b1061859\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\terry.build.appxrecipe</AppxPackageRecipe>
+		<LayoutDir>C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Binaries\HoloLens\terry.build.appxrecipe</AppxPackageRecipe>
 	</PropertyGroup>
     <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
 		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
@@ -469,6 +469,33 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Config\steamvr_ue_editor_app.json"/>
+    <None Include="..\..\Config\SteamVRBindings\gamepad.json"/>
+    <None Include="..\..\Config\SteamVRBindings\holographic_controller.json"/>
+    <None Include="..\..\Config\SteamVRBindings\hpmotioncontroller.json"/>
+    <None Include="..\..\Config\SteamVRBindings\indexhmd.json"/>
+    <None Include="..\..\Config\SteamVRBindings\knuckles.json"/>
+    <None Include="..\..\Config\SteamVRBindings\oculus_touch.json"/>
+    <None Include="..\..\Config\SteamVRBindings\rift.json"/>
+    <None Include="..\..\Config\SteamVRBindings\steamvr_manifest.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_controller.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_cosmos_controller.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_pro.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_camera.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_chest.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_handed.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_keyboard.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_elbow.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_foot.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_knee.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_left_shoulder.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_elbow.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_foot.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_knee.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_right_shoulder.json"/>
+    <None Include="..\..\Config\SteamVRBindings\vive_tracker_waist.json"/>
     <ClCompile Include="..\..\Source\terry\LogPrint.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\terry\Definitions.terry.h</ForcedIncludeFiles>
