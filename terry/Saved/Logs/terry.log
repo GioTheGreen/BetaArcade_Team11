@@ -4117,3 +4117,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.11.23-03.03.23:129][543]AssetCheck: New page: Asset Save: Falling_UI
 [2023.11.23-03.03.23:129][543]LogContentValidation: Display: Validating World /Game/Bob/Falling_UI.Falling_UI
 [2023.11.23-03.03.26:691][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.11.23-03.06.19:198][547]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Bob/GameModeUI.GameModeUI
