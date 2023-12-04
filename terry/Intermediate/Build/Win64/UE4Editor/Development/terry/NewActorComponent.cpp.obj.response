@@ -231,8 +231,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\UE4Editor\Inc\terry
-/I C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Source
+/I C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\UE4Editor\Inc\terry
+/I C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -262,12 +262,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Source\terry\NewActorComponent.cpp"
-/FI"C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\UE4Editor\Development\terry\Definitions.terry.h"
-/Fo"C:\Users\B1050622\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\UE4Editor\Development\terry\NewActorComponent.cpp.obj"
+/FI"C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\terryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Source\terry\NewActorComponent.cpp"
+/FI"C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\UE4Editor\Development\terry\Definitions.terry.h"
+/Fo"C:\Users\a0100597\Documents\GitHub\BetaArcade_Team11\terry\Intermediate\Build\Win64\UE4Editor\Development\terry\NewActorComponent.cpp.obj"
 /TP
 /GR-
 /W4
